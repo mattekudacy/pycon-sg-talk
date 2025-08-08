@@ -12,6 +12,7 @@ from pages.demo_page5 import DemoPage5
 from pages.demo_page6 import DemoPage6
 from pages.bts import BTS
 from pages.dodonts import WhenToUsePage
+from pages.final_page import FinalPage
 
 class PresentationApp:
     def __init__(self, page: ft.Page):
@@ -31,6 +32,7 @@ class PresentationApp:
             DemoPage6(),
             BTS(),
             WhenToUsePage(),
+            FinalPage(),
         ]
         
         self.setup_page()
